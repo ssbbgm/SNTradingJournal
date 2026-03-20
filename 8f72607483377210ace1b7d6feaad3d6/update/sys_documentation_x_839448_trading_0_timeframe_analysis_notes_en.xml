@@ -10,15 +10,15 @@
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-20 15:35:03</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_created_on>2026-03-20 19:09:08</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
             <sys_name>Notes</sys_name>
             <sys_package display_value="Trading Journal" source="x_839448_trading_0">8f72607483377210ace1b7d6feaad3d6</sys_package>
             <sys_policy/>
             <sys_scope display_value="Trading Journal">8f72607483377210ace1b7d6feaad3d6</sys_scope>
             <sys_update_name>sys_documentation_x_839448_trading_0_timeframe_analysis_notes_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-20 15:35:04</sys_updated_on>
+            <sys_updated_on>2026-03-20 19:15:22</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

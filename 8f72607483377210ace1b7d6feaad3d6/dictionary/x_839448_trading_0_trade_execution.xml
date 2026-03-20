@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fb07ed3483bb7210ace1b7d6feaad304" label="Trade Execution" max_length="40" name="x_839448_trading_0_trade_execution" type="collection">
+        <element choice="1" label="Execution Quality" max_length="40" name="execution_quality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Average" sequence="2" value="average"/>
+                <element inactive_on_update="false" label="Poor" sequence="3" value="poor"/>
+                <element inactive_on_update="false" label="Excellent" sequence="0" value="excellent"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="good"/>
+            </choice>
+        </element>
+        <element label="Entry DateTime" max_length="40" name="entry_datetime" type="glide_date_time"/>
+        <element label="Profit Percentage" max_length="38" name="profit_percentage" type="decimal"/>
+        <element label="Trade Notes" max_length="300" name="trade_notes" type="html"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Profit Dollars" max_length="38" name="profit_dollars" type="decimal"/>
+        <element choice="3" default="win" label="Outcome" max_length="40" name="outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Loss" sequence="1" value="loss"/>
+                <element inactive_on_update="false" label="Win" sequence="0" value="win"/>
+                <element inactive_on_update="false" label="Breakeven" sequence="2" value="breakeven"/>
+            </choice>
+        </element>
+        <element choice="1" label="Mistake Category" max_length="40" name="mistake_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Countertrend" sequence="4" value="countertrend"/>
+                <element inactive_on_update="false" label="Early Exit" sequence="5" value="early_exit"/>
+                <element inactive_on_update="false" label="Early Entry" sequence="0" value="early_entry"/>
+                <element inactive_on_update="false" label="Late Entry" sequence="1" value="late_entry"/>
+                <element inactive_on_update="false" label="Overtraded" sequence="2" value="overtraded"/>
+                <element inactive_on_update="false" label="Ignored Setup" sequence="3" value="ignored_setup"/>
+            </choice>
+        </element>
+        <element label="Trade Screenshot" max_length="40" name="trade_screenshot" type="file_attachment"/>
+        <element label="Entry Price" max_length="38" name="entry_price" type="decimal"/>
+        <element choice="3" label="Emotional State" max_length="40" name="emotional_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FOMO" sequence="6" value="fomo"/>
+                <element inactive_on_update="false" label="Hesistant" sequence="2" value="hesistant"/>
+                <element inactive_on_update="false" label="Anxious" sequence="3" value="anxious"/>
+                <element inactive_on_update="false" label="Fearful" sequence="4" value="fearful"/>
+                <element inactive_on_update="false" label="Revenge" sequence="5" value="revenge"/>
+                <element inactive_on_update="false" label="Calm" sequence="0" value="calm"/>
+                <element inactive_on_update="false" label="Confident" sequence="1" value="confident"/>
+            </choice>
+        </element>
+        <element label="Position Size" max_length="40" name="position_size" type="integer"/>
+        <element label="Trading Day" max_length="32" name="trading_day" reference="x_839448_trading_0_trading_day" type="reference"/>
+        <element label="Symbol" max_length="40" name="symbol" type="string"/>
+        <element label="Followed Plan" max_length="40" name="followed_plan" type="boolean"/>
+        <element label="Exit Price" max_length="38" name="exit_price" type="decimal"/>
+        <element label="Exit DateTime" max_length="40" name="exit_datetime" type="glide_date_time"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="trading_day"/>
+        </index>
+    </element>
+</database>
