@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="premarket_notes" table="x_839448_trading_0_trading_day">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>html_sanitize=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="HTML">html</internal_type>
         <mandatory>false</mandatory>
         <max_length>250</max_length>
         <name>x_839448_trading_0_trading_day</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Trading Journal">8f72607483377210ace1b7d6feaad3d6</sys_scope>
         <sys_update_name>sys_dictionary_x_839448_trading_0_trading_day_premarket_notes</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-20 15:13:24</sys_updated_on>
+        <sys_updated_on>2026-03-20 19:19:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

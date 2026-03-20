@@ -6,7 +6,8 @@
                 <element inactive_on_update="false" label="Golden Cross" sequence="0" value="golden_cross"/>
             </choice>
         </element>
-        <element choice="3" default="bullish" label="Bias" max_length="40" name="bias" type="choice">
+        <element attributes="html_sanitize=false" label="Notes" max_length="300" name="notes" type="html"/>
+        <element choice="3" default="bullish" label="Personal Bias" max_length="40" name="bias" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bearish" sequence="1" value="bearish"/>
                 <element inactive_on_update="false" label="Bullish" sequence="0" value="bullish"/>
@@ -45,6 +46,21 @@
             </choice>
         </element>
         <element label="Near Resistance" max_length="40" name="near_resistance" type="boolean"/>
+        <element choice="3" label="RSI Trend" max_length="40" name="rsi_trend" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Up" sequence="0" value="up"/>
+                <element inactive_on_update="false" label="Flat" sequence="2" value="flat"/>
+                <element inactive_on_update="false" label="Down" sequence="1" value="down"/>
+            </choice>
+        </element>
+        <element choice="3" default="above_50" label="RSI Position" max_length="40" name="rsi_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Above 50" sequence="2" value="above_50"/>
+                <element inactive_on_update="false" label="Above 70" sequence="3" value="above_70"/>
+                <element inactive_on_update="false" label="Below 30" sequence="0" value="below_30"/>
+                <element inactive_on_update="false" label="Below 50" sequence="1" value="below_50"/>
+            </choice>
+        </element>
         <element choice="3" default="above_0" label="MACD Position" max_length="40" name="macd_position" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Above 0" sequence="1" value="above_0"/>
@@ -52,7 +68,6 @@
             </choice>
         </element>
         <element label="Trading Day" max_length="32" name="trading_day" reference="x_839448_trading_0_trading_day" type="reference"/>
-        <element label="Notes" max_length="250" name="notes" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

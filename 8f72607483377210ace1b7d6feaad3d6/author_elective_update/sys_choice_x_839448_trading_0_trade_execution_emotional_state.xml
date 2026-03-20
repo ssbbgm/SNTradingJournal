@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="emotional_state" table="x_839448_trading_0_trade_execution" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>emotional_state</element>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>emotional_state</sys_name>
+            <sys_package display_value="Trading Journal" source="x_839448_trading_0">8f72607483377210ace1b7d6feaad3d6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Journal">8f72607483377210ace1b7d6feaad3d6</sys_scope>
+            <sys_update_name>sys_choice_x_839448_trading_0_trade_execution_emotional_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>emotional_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Calm</label>
+            <language>en</language>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+            <value>calm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>emotional_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confident</label>
+            <language>en</language>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+            <value>confident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>emotional_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hesistant</label>
+            <language>en</language>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+            <value>hesistant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>emotional_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anxious</label>
+            <language>en</language>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+            <value>anxious</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>emotional_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fearful</label>
+            <language>en</language>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+            <value>fearful</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>emotional_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revenge</label>
+            <language>en</language>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+            <value>revenge</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>emotional_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FOMO</label>
+            <language>en</language>
+            <name>x_839448_trading_0_trade_execution</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 18:33:42</sys_updated_on>
+            <value>fomo</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Timeframe Analysis" section_id="fa63b9b483fb7210ace1b7d6feaad359" sys_domain="global" table="x_839448_trading_0_timeframe_analysis" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 19:16:19</sys_created_on>
+            <sys_id>fe63b9b483fb7210ace1b7d6feaad36d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Timeframe Analysis" display_value="Timeframe Analysis" name="x_839448_trading_0_timeframe_analysis" sys_domain="global" view="Default view">fa63b9b483fb7210ace1b7d6feaad359</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 19:16:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Timeframe Analysis</caption>
+            <header>false</header>
+            <name>x_839448_trading_0_timeframe_analysis</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-20 19:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa63b9b483fb7210ace1b7d6feaad359</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_839448_trading_0_timeframe_analysis</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Trading Journal" source="x_839448_trading_0">8f72607483377210ace1b7d6feaad3d6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Journal">8f72607483377210ace1b7d6feaad3d6</sys_scope>
+            <sys_update_name>sys_ui_section_fa63b9b483fb7210ace1b7d6feaad359</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-20 19:17:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trading Journal">8f72607483377210ace1b7d6feaad3d6</application>
+        <file_path/>
+        <instance_id>d00e8db793a4ae50c4e8ddd548373c58</instance_id>
+        <instance_name>dev314735</instance_name>
+        <name>sys_ui_section_fa63b9b483fb7210ace1b7d6feaad359</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Timeframe Analysis" section_id="fa63b9b483fb7210ace1b7d6feaad359" sys_domain="global" table="x_839448_trading_0_timeframe_analysis" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>notes</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-20 19:16:19</sys_created_on><sys_id>fe63b9b483fb7210ace1b7d6feaad36d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Timeframe Analysis" display_value="Timeframe Analysis" name="x_839448_trading_0_timeframe_analysis" sys_domain="global" view="Default view">fa63b9b483fb7210ace1b7d6feaad359</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-20 19:16:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Timeframe Analysis</caption><header>false</header><name>x_839448_trading_0_timeframe_analysis</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-20 19:16:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fa63b9b483fb7210ace1b7d6feaad359</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_839448_trading_0_timeframe_analysis</sys_name><sys_overrides/><sys_package display_value="Trading Journal" source="x_839448_trading_0">8f72607483377210ace1b7d6feaad3d6</sys_package><sys_policy/><sys_scope display_value="Trading Journal">8f72607483377210ace1b7d6feaad3d6</sys_scope><sys_update_name>sys_ui_section_fa63b9b483fb7210ace1b7d6feaad359</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-20 19:17:12</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1035989406</payload_hash>
+        <record_name>Timeframe Analysis</record_name>
+        <reverted_from/>
+        <source>2402f43483377210ace1b7d6feaad3d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-20 19:17:12</sys_created_on>
+        <sys_id>bf93bdb483fb7210ace1b7d6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d0cae24cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-20 19:17:12</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>3793bdb45bfb721062672d732338e0d6</update_guid>
+        <update_guid_history>3793bdb45bfb721062672d732338e0d6:-1035989406,7663b9b4a4fb721083260a32549d186f:2060254174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-20 19:18:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>26d2e5ca5d544450bbe8615f4799d100</sys_id>
+        <sys_metadata>fa63b9b483fb7210ace1b7d6feaad359</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Timeframe Analysis</sys_name>
+        <sys_package display_value="Trading Journal" source="x_839448_trading_0">8f72607483377210ace1b7d6feaad3d6</sys_package>
+        <sys_parent display_value="Timeframe Analysis">cacd70fc83b77210ace1b7d6feaad304</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Trading Journal">8f72607483377210ace1b7d6feaad3d6</sys_scope>
+        <sys_scope_delete display_value="">4c4ddc8142bb4d1dae811600b4c4f759</sys_scope_delete>
+        <sys_update_name>sys_ui_section_fa63b9b483fb7210ace1b7d6feaad359</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_fa63b9b483fb7210ace1b7d6feaad359">bf93bdb483fb7210ace1b7d6feaad3d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-20 19:18:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
