@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5552bc7883777210ace1b7d6feaad3cd" label="Trading Day" max_length="40" name="x_839448_trading_0_trading_day" type="collection">
+        <element label="Postmarket Notes" max_length="250" name="postmarket_notes" type="string"/>
+        <element label="Premarket Notes" max_length="250" name="premarket_notes" type="string"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Trade Date" max_length="40" name="trade_date" type="glide_date" use_dynamic_default="true"/>
+        <element label="News Day" max_length="40" name="news_day" type="boolean"/>
+        <element label="News Notes" max_length="100" name="news_notes" type="string"/>
+        <element choice="3" default="neutral" label="Overall Sentiment" max_length="40" name="overall_sentiment" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Day Grade" max_length="40" name="day_grade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="D" sequence="3" value="d"/>
+                <element inactive_on_update="false" label="F" sequence="4" value="f"/>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
