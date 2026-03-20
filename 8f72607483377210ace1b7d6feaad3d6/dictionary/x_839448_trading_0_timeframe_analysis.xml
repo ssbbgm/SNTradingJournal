@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cacd70fc83b77210ace1b7d6feaad304" label="Timeframe Analysis" max_length="40" name="x_839448_trading_0_timeframe_analysis" type="collection">
+        <element choice="1" label="SMA Crossing" max_length="40" name="sma_crossing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Death Cross" sequence="1" value="death_cross"/>
+                <element inactive_on_update="false" label="Golden Cross" sequence="0" value="golden_cross"/>
+            </choice>
+        </element>
+        <element choice="3" default="bullish" label="Bias" max_length="40" name="bias" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bearish" sequence="1" value="bearish"/>
+                <element inactive_on_update="false" label="Bullish" sequence="0" value="bullish"/>
+                <element inactive_on_update="false" label="Sideways" sequence="2" value="sideways"/>
+            </choice>
+        </element>
+        <element choice="3" default="golden_cross" label="MACD Crossing" max_length="40" name="macd_crossing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Golden Cross" sequence="0" value="golden_cross"/>
+                <element inactive_on_update="false" label="Death Cross" sequence="1" value="death_cross"/>
+            </choice>
+        </element>
+        <element choice="3" label="Bollinger Band Position" max_length="40" name="bollinger_band_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Upper" sequence="0" value="upper"/>
+                <element inactive_on_update="false" label="Middle" sequence="1" value="middle"/>
+                <element inactive_on_update="false" label="Lower" sequence="2" value="lower"/>
+            </choice>
+        </element>
+        <element label="Near Support" max_length="40" name="near_support" type="boolean"/>
+        <element choice="3" default="weekly" label="Timeframe" max_length="40" name="timeframe" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1H" sequence="3" value="1h"/>
+                <element inactive_on_update="false" label="15M" sequence="4" value="m"/>
+                <element inactive_on_update="false" label="Daily" sequence="1" value="daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="0" value="weekly"/>
+                <element inactive_on_update="false" label="4H" sequence="2" value="4h"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" default="bullish" label="Trend Direction" max_length="40" name="trend_direction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bearish" sequence="1" value="bearish"/>
+                <element inactive_on_update="false" label="Bullish" sequence="0" value="bullish"/>
+                <element inactive_on_update="false" label="Sideways" sequence="2" value="sideways"/>
+            </choice>
+        </element>
+        <element label="Near Resistance" max_length="40" name="near_resistance" type="boolean"/>
+        <element choice="3" default="above_0" label="MACD Position" max_length="40" name="macd_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Above 0" sequence="1" value="above_0"/>
+                <element inactive_on_update="false" label="Below 0" sequence="0" value="below_0"/>
+            </choice>
+        </element>
+        <element label="Trading Day" max_length="32" name="trading_day" reference="x_839448_trading_0_trading_day" type="reference"/>
+        <element label="Notes" max_length="250" name="notes" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="trading_day"/>
+        </index>
+    </element>
+</database>
