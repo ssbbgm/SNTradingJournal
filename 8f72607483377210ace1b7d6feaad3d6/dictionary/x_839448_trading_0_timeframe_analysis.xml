@@ -6,7 +6,7 @@
                 <element inactive_on_update="false" label="Golden Cross" sequence="0" value="golden_cross"/>
             </choice>
         </element>
-        <element attributes="html_sanitize=false" label="Notes" max_length="300" name="notes" type="html"/>
+        <element attributes="html_sanitize=false" label="Notes" max_length="4000" name="notes" type="string_full_utf8"/>
         <element choice="3" default="bullish" label="Personal Bias" max_length="40" name="bias" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bearish" sequence="1" value="bearish"/>
