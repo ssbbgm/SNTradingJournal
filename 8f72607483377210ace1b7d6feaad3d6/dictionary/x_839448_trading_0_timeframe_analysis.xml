@@ -7,7 +7,7 @@
             </choice>
         </element>
         <element attributes="html_sanitize=false" label="Notes" max_length="4000" name="notes" type="string_full_utf8"/>
-        <element choice="3" default="bullish" label="Personal Bias" max_length="40" name="bias" type="choice">
+        <element choice="3" default="bullish" label="Direction Bias" mandatory="true" max_length="40" name="bias" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bearish" sequence="1" value="bearish"/>
                 <element inactive_on_update="false" label="Bullish" sequence="0" value="bullish"/>
@@ -28,7 +28,7 @@
             </choice>
         </element>
         <element label="Near Support" max_length="40" name="near_support" type="boolean"/>
-        <element choice="3" default="weekly" label="Timeframe" max_length="40" name="timeframe" type="choice">
+        <element choice="1" label="Timeframe" mandatory="true" max_length="40" name="timeframe" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1H" sequence="3" value="1h"/>
                 <element inactive_on_update="false" label="15M" sequence="4" value="m"/>
@@ -67,7 +67,15 @@
                 <element inactive_on_update="false" label="Below 0" sequence="0" value="below_0"/>
             </choice>
         </element>
-        <element label="Trading Day" max_length="32" name="trading_day" reference="x_839448_trading_0_trading_day" type="reference"/>
+        <element label="Trading Day" mandatory="true" max_length="32" name="trading_day" reference="x_839448_trading_0_trading_day" type="reference"/>
+        <element choice="1" label="Setup Bias" max_length="40" name="setup_bias" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MBB Breakdown" sequence="2" value="mbb_breakdown"/>
+                <element inactive_on_update="false" label="LBB Bounce" sequence="3" value="lbb_bounce"/>
+                <element inactive_on_update="false" label="UBB Breakdown" sequence="0" value="ubb_breakdown"/>
+                <element inactive_on_update="false" label="MBB Bounce" sequence="1" value="mbb_bounce"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

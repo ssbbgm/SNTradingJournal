@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5552bc7883777210ace1b7d6feaad3cd" label="Trading Day" max_length="40" name="x_839448_trading_0_trading_day" type="collection">
-        <element attributes="html_sanitize=false" label="Postmarket Notes" max_length="4000" name="postmarket_notes" type="string_full_utf8"/>
-        <element attributes="html_sanitize=false" label="Premarket Notes" max_length="4000" name="premarket_notes" type="string_full_utf8"/>
-        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Trade Date" max_length="40" name="trade_date" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="html_sanitize=false" label="Postmarket Notes" mandatory="true" max_length="4000" name="postmarket_notes" type="string_full_utf8"/>
+        <element attributes="html_sanitize=false" label="Premarket Notes" mandatory="true" max_length="4000" name="premarket_notes" type="string_full_utf8"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Trade Date" mandatory="true" max_length="40" name="trade_date" type="glide_date" use_dynamic_default="true"/>
         <element label="News Day" max_length="40" name="news_day" type="boolean"/>
         <element label="News Notes" max_length="4000" name="news_notes" type="string_full_utf8"/>
         <element choice="3" default="bullish" label="Overall Sentiment" max_length="40" name="overall_sentiment" type="choice">
